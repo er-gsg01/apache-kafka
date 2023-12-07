@@ -1,10 +1,16 @@
-package com.ashok.model;
+package com.kafka.model;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * This class serving as model to hold data
  * @author Ashok
  *
  */
+@XmlRootElement(name = "customer")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Customer {
 
 	private Integer customerId;

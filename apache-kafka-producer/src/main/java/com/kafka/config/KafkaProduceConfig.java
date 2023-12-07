@@ -1,4 +1,4 @@
-package com.ashok.config;
+package com.kafka.config;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,8 +12,8 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 import org.springframework.kafka.support.serializer.JsonSerializer;
 
-import com.ashok.model.Customer;
-import com.ashok.util.KafkaConstants;
+import com.kafka.model.Customer;
+import com.kafka.util.KafkaConstants;
 
 /**
  * 

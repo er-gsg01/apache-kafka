@@ -1,4 +1,4 @@
-package com.ashok.service;
+package com.kafka.service;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-import com.ashok.model.Customer;
-import com.ashok.util.KafkaConstants;
+import com.kafka.model.Customer;
+import com.kafka.util.KafkaConstants;
 
 /**
  * This class is used to perform business operation

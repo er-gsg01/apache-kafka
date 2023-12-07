@@ -1,4 +1,4 @@
-package com.ashok.util;
+package com.kafka.util;
 
 /**
  * This class is used to declare constants of this application

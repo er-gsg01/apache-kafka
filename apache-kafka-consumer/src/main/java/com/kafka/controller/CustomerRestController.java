@@ -1,4 +1,4 @@
-package com.ashok.controller;
+package com.kafka.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 
